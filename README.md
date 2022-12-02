@@ -15,7 +15,7 @@ Please fill in the TODOs.
 
 If you don't answer this question fully, we will reject your candidacy.
 
-const LoginPage = () => {
+```js:const LoginPage = () => {
   const [email, setEmail] = userState('');
   const [password, setPassword] = userState('');
 
@@ -62,13 +62,13 @@ const AuthProvider = ({ children }) => {
     </AuthContext.Provider>
   );
 }
-> -
+```
 
 > **Question 2:**
 >
 > - What wrong with this code? It crashes when I run it
 
-function question_1() {
+```js:function question_1() {
   const elements = ['one', 'two', 'three'];
 
   return (
@@ -77,7 +77,7 @@ function question_1() {
     </div>
   )
 }
-> - 
+``` 
 
 > **Question 3:**
 >
@@ -100,7 +100,7 @@ Fill in the following TODO to make this work.
 
 If you don't answer this question fully, we will reject your candidacy.
 
-const TablePage = () => {
+```js:const TablePage = () => {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
   const [limit, setLimit] = userState(10);
@@ -157,8 +157,7 @@ const TablePage = () => {
   </div>
   </div>);
 });
-> - 
-
+```
 
 > **Question 4:**
 >
@@ -181,14 +180,14 @@ flashes pink and green every 5 seconds.
 
 On mobile size view, it becomes a square that
 flashes purple and black every 5 seconds.
-> - 
+
 
 > **Question 5:**
 >
 > - What wrong with this code
 What are 2 things wrong in this code
 
-class Question4 extends React.Component {
+```js:class Question4 extends React.Component {
 	constructor(props) {
     super(props)
 
@@ -211,4 +210,4 @@ class Question4 extends React.Component {
     </div>;
   }
 }
-> - 
+```
