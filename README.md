@@ -12,10 +12,10 @@ This API returns { token: <JWT Token>, user_id: <integer>, role: <string>}.
 
 I want you to write the AUTH Provider to handle authentication of the system.
 Please fill in the TODOs.
-
+```
 If you don't answer this question fully, we will reject your candidacy.
 
-```js:const LoginPage = () => {
+  const LoginPage = () => {
   const [email, setEmail] = userState('');
   const [password, setPassword] = userState('');
 
@@ -66,9 +66,9 @@ const AuthProvider = ({ children }) => {
 
 > **Question 2:**
 >
-> - What wrong with this code? It crashes when I run it
+``` What wrong with this code? It crashes when I run it
 
-```js:function question_1() {
+function question_1() {
   const elements = ['one', 'two', 'three'];
 
   return (
@@ -97,10 +97,10 @@ This API return the following:
 }
 
 Fill in the following TODO to make this work.
-
+```
 If you don't answer this question fully, we will reject your candidacy.
 
-```js:const TablePage = () => {
+  const TablePage = () => {
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
   const [limit, setLimit] = userState(10);
@@ -187,7 +187,9 @@ flashes purple and black every 5 seconds.
 > - What wrong with this code
 What are 2 things wrong in this code
 
-```js:class Question4 extends React.Component {
+```
+
+class Question4 extends React.Component {
 	constructor(props) {
     super(props)
 
@@ -210,4 +212,5 @@ What are 2 things wrong in this code
     </div>;
   }
 }
+
 ```
