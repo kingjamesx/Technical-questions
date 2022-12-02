@@ -6,7 +6,7 @@ Looping through items in react requires you provide a unique key so react can de
 
 New code: 
 
-```js:function question1() {
+``` function question1() {
   const elements = ['one', 'two', 'three'];
 
   return (
