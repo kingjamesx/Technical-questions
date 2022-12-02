@@ -5,7 +5,7 @@ The component name should be Question1. This work but there is still going to be
 Looping through items in react requires you provide a unique key so react can detect changes 
 ```
 New code: 
-function question1() {
+function Question1() {
   const elements = ['one', 'two', 'three'];
 
   return (
